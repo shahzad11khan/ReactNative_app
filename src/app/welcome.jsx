@@ -1,6 +1,5 @@
-import React from 'react';
-import { View, Text, TouchableOpacity, Image, SafeAreaView, Platform } from 'react-native';
 import { useRouter } from 'expo-router';
+import { Image, Platform, SafeAreaView, Text, TouchableOpacity, View } from 'react-native';
 import tw from 'twrnc';
 
 export default function Welcome() {
@@ -17,7 +16,7 @@ export default function Welcome() {
           />
         </View>
 
-        <Text style={tw`text-white text-3xl font-bold mb-2 text-center`}>
+        <Text style={tw`text-white  text-3xl font-bold mb-2 text-center`}>
           NEAT & CLEAN
         </Text>
         <Text style={tw`text-white font-semibold text-lg tracking-widest mb-6`}>

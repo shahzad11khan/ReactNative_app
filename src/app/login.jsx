@@ -76,7 +76,7 @@ export default function Login() {
               {/* Login Button */}
               <TouchableOpacity
                 style={tw`bg-[#2ea64f] w-full py-4 rounded-xl items-center shadow-lg mb-4`}
-                onPress={() => router.replace('/')}
+                onPress={() => router.replace('/home')}
               >
                 <Text style={tw`text-white font-bold text-base`}>Login</Text>
               </TouchableOpacity>
